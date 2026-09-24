@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AI dan Implementasi AI di Industri Contact Center | OmniAssist</title>
+  <meta name="description" content="Pelajari bagaimana AI, mulai dari chatbot, smart routing, agent assist, hingga analitik sentimen, meningkatkan layanan contact center di atas platform omnichannel.">
+  <meta name="theme-color" content="#0b1b33">
+
+  <!-- Open Graph: tampilan saat tautan dibagikan -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="AI dan Implementasi AI di Industri Contact Center">
+  <meta property="og:description" content="Empat cara AI mengubah layanan contact center di atas satu platform omnichannel.">
+
+  <!-- Favicon SVG inline, tanpa file tambahan -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>">
+
+  <!-- Menandai JavaScript aktif sebelum halaman digambar, agar menu mobile tidak berkedip -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Font: satu keluarga, empat bobot -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lompat ke konten utama</a>
+
+  <!-- ===== HEADER: navigasi + judul halaman (hero) ===== -->
+  <header class="page-header" id="top">
+    <div class="container topbar">
+      <a class="brand" href="#top" aria-label="OmniAssist, kembali ke atas">OmniAssist</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-utama">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="nav-utama" aria-label="Navigasi utama">
+        <ul class="site-nav__list">
+          <li><a href="#implementasi">Implementasi</a></li>
+          <li><a href="#tata-kelola">Tata Kelola</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn--accent" href="#kontak">Hubungi Kami</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container hero">
+      <div class="hero__content">
+        <p class="hero__label">Contact Center Berbasis AI</p>
+        <h1 class="hero__title">AI dan Implementasi AI di Industri Contact Center</h1>
+        <p class="hero__lead">Dari chatbot hingga analitik percakapan: bagaimana AI membuat layanan pelanggan lebih cepat, konsisten, dan terukur di atas satu platform omnichannel.</p>
+
+        <div class="hero__actions">
+          <a class="btn btn--accent" href="#kontak">Hubungi Kami</a>
+          <a class="btn btn--ghost" href="#implementasi">Pelajari Lebih Lanjut</a>
+        </div>
+
+        <ul class="chips" aria-label="Kanal yang didukung">
+          <li>WhatsApp</li>
+          <li>Email</li>
+          <li>Media Sosial</li>
+          <li>Telepon</li>
+          <li>Web Chat</li>
+        </ul>
+      </div>
+
+      <!-- Diagram alur: HTML + CSS agar otomatis responsif -->
+      <div class="hero__visual">
+        <ol class="flow" aria-label="Alur layanan pelanggan dengan AI">
+          <li class="flow__step">
+            <strong class="flow__title">Pelanggan</strong>
+            <span class="flow__text">Bertanya lewat kanal favoritnya</span>
+          </li>
+          <li class="flow__step">
+            <strong class="flow__title">Inbox omnichannel</strong>
+            <span class="flow__text">Semua percakapan terkumpul di satu tempat</span>
+          </li>
+          <li class="flow__step">
+            <strong class="flow__title">Lapisan AI</strong>
+            <span class="flow__text">Chatbot, routing, agent assist, analitik</span>
+          </li>
+          <li class="flow__step">
+            <strong class="flow__title">Agen &amp; supervisor</strong>
+            <span class="flow__text">Menangani kasus yang butuh sentuhan manusia</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </header>
+
+  <main id="konten">
+
+    <!-- ===== KONTEKS ===== -->
+    <section class="section" id="konteks" aria-labelledby="judul-konteks">
+      <div class="container">
+        <h2 class="section__title" id="judul-konteks">Kenapa AI, dan kenapa sekarang?</h2>
+
+        <ul class="grid grid--3">
+          <li class="point">
+            <h3 class="point__title">Pelanggan ada di banyak kanal</h3>
+            <p>WhatsApp menjadi kanal pesan bisnis paling dominan di Indonesia dengan tingkat penggunaan 81%, dan RCS terus tumbuh: sekitar 89,5 juta pengguna perangkat yang mendukungnya menempatkan Indonesia di peringkat kelima dunia.</p>
+            <p class="point__source">Sumber: Infobip, Indonesia Messaging &amp; Engagement Trends Report 2026.</p>
+          </li>
+          <li class="point">
+            <h3 class="point__title">Volume dan ekspektasi terus naik</h3>
+            <p>Pelanggan ingin jawaban cepat kapan saja, sementara tim tetap terbatas.</p>
+          </li>
+          <li class="point">
+            <h3 class="point__title">AI butuh data yang terpusat</h3>
+            <p>Tanpa satu platform omnichannel, AI hanya melihat potongan percakapan dan jawabannya tidak konsisten.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== EMPAT IMPLEMENTASI AI ===== -->
+    <section class="section section--surface" id="implementasi" aria-labelledby="judul-implementasi">
+      <div class="container">
+        <h2 class="section__title" id="judul-implementasi">Empat cara AI mengubah layanan contact center</h2>
+
+        <ul class="grid grid--2">
+          <li class="card">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16v11H10l-4 4v-4H4z"/><path d="M9 10.5h.01M12 10.5h.01M15 10.5h.01"/></svg></span>
+            <h3 class="card__title">AI Chatbot &amp; Virtual Agent</h3>
+            <p class="card__text">Menjawab pertanyaan berulang di WhatsApp, web, dan media sosial sepanjang waktu, lalu meneruskan ke agen saat kasus butuh sentuhan manusia.</p>
+            <p class="card__benefit"><strong>Manfaat:</strong> layanan 24 jam tanpa memperpanjang antrean.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h6a4 4 0 0 0 0-8h-4a4 4 0 0 1 0-8"/><path d="M10 3h6"/></svg></span>
+            <h3 class="card__title">Smart Routing &amp; Auto-Triage</h3>
+            <p class="card__text">Membaca topik dan urgensi setiap permintaan, lalu menugaskannya ke agen atau tim yang paling tepat.</p>
+            <p class="card__benefit"><strong>Manfaat:</strong> respons lebih cepat dan beban agen lebih merata.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></span>
+            <h3 class="card__title">Agent Assist &amp; Ringkasan Otomatis</h3>
+            <p class="card__text">Menyarankan jawaban secara real-time dan merangkum percakapan saat ditutup.</p>
+            <p class="card__benefit"><strong>Manfaat:</strong> agen fokus pada pelanggan, catatan tetap konsisten.</p>
+          </li>
+
+          <li class="card">
+            <span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 20h18"/><path d="M6 16v-4M12 16V6M18 16v-7"/></svg></span>
+            <h3 class="card__title">Analitik Sentimen &amp; QA Otomatis</h3>
+            <p class="card__text">Mendeteksi emosi dan pola keluhan dari percakapan, serta menilai mutu interaksi tanpa audit manual satu per satu.</p>
+            <p class="card__benefit"><strong>Manfaat:</strong> supervisor melihat gambaran utuh, bukan hanya sampel kecil.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== TATA KELOLA ===== -->
+    <section class="section" id="tata-kelola" aria-labelledby="judul-tata-kelola">
+      <div class="container">
+        <h2 class="section__title" id="judul-tata-kelola">AI yang bertanggung jawab</h2>
+        <p class="section__lead">Teknologi secanggih apa pun harus aman dan bisa dipercaya.</p>
+
+        <ul class="grid grid--3">
+          <li class="point">
+            <h3 class="point__title">Perlindungan data pribadi</h3>
+            <p>Pengelolaan data pelanggan mengikuti UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.</p>
+          </li>
+          <li class="point">
+            <h3 class="point__title">Selalu ada jalur ke manusia</h3>
+            <p>Bila AI tidak yakin atau pelanggan meminta, percakapan diteruskan ke agen beserta riwayatnya.</p>
+          </li>
+          <li class="point">
+            <h3 class="point__title">Jawaban dari sumber terverifikasi</h3>
+            <p>Chatbot dirancang menjawab berdasarkan knowledge base yang dikelola tim, dan menyerahkan ke agen saat jawabannya tidak ditemukan.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CONTOH NYATA ===== -->
+    <section class="section section--surface" id="contoh" aria-labelledby="judul-contoh">
+      <div class="container">
+        <h2 class="section__title" id="judul-contoh">Contoh nyata di Indonesia</h2>
+
+        <figure class="highlight">
+          <p class="highlight__text">Asisten WhatsApp AI milik Sinar Mas Land, SILVIA, menangani 42% percakapan pelanggan, dan skor kepuasan pelanggannya mencapai 4,46.</p>
+          <figcaption class="highlight__source">Sumber: Indonesia Messaging &amp; Engagement Trends Report 2026 (Infobip), dirilis 3 September 2026, dimuat KabarBursa.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ROADMAP ===== -->
+    <section class="section" id="roadmap" aria-labelledby="judul-roadmap">
+      <div class="container">
+        <h2 class="section__title" id="judul-roadmap">Roadmap implementasi</h2>
+
+        <ol class="steps">
+          <li class="steps__item">
+            <h3 class="steps__title">Audit</h3>
+            <p>Petakan kanal, volume, dan pertanyaan yang paling sering muncul.</p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title">Siapkan</h3>
+            <p>Susun knowledge base dan integrasi dengan sistem yang ada.</p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title">Pilot</h3>
+            <p>Mulai dari satu kanal dan satu use case, misalnya chatbot FAQ.</p>
+          </li>
+          <li class="steps__item">
+            <h3 class="steps__title">Ukur dan skalakan</h3>
+            <p>Perluas berdasarkan waktu respons dan kepuasan pelanggan.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section--surface" id="faq" aria-labelledby="judul-faq">
+      <div class="container container--narrow">
+        <h2 class="section__title" id="judul-faq">Pertanyaan yang sering diajukan</h2>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__question">Apakah AI menggantikan agen?</summary>
+            <p class="faq__answer">Tidak. AI menangani hal berulang, sementara agen menangani kasus yang butuh empati dan penilaian.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Bagaimana keamanan data pelanggan?</summary>
+            <p class="faq__answer">Data dikelola sesuai regulasi pelindungan data pribadi, dengan akses berbasis peran dan jejak audit.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Harus mengganti sistem yang sudah ada?</summary>
+            <p class="faq__answer">Tidak selalu. Integrasi dapat dilakukan lewat API dengan CRM atau ticketing yang sudah berjalan.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Mulai dari mana?</summary>
+            <p class="faq__answer">Dari satu kanal dan satu use case, lalu diperluas bertahap.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA PENUTUP ===== -->
+    <section class="cta" id="kontak" aria-labelledby="judul-cta">
+      <div class="container cta__inner">
+        <h2 class="cta__title" id="judul-cta">Siap membawa AI ke contact center Anda?</h2>
+        <p class="cta__text">Ceritakan kebutuhan Anda, tim kami akan menghubungi dalam 1 hari kerja.</p>
+        <a class="btn btn--accent" href="mailto:halo@omniassist.example">Hubungi Kami</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER (data fiktif) ===== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">OmniAssist Indonesia</p>
+
+      <address class="site-footer__contact">
+        <span>Jl. Contoh Raya No. 1, Jakarta 10000</span>
+        <a href="mailto:halo@omniassist.example">halo@omniassist.example</a>
+        <a href="tel:+62215550100">(021) 555-0100</a>
+        <span>Senin&ndash;Jumat, 08.30&ndash;17.00 WIB</span>
+      </address>
+
+      <p class="site-footer__note">Data pada halaman ini fiktif untuk keperluan studi kasus.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
